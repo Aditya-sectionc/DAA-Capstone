@@ -1,0 +1,18 @@
+======================================================================
+MINI-COURIER PLANNER - SAMPLE EXECUTION
+======================================================================
+Prioritized order: P05, P01, P10, P07, P03, P12, P02, P08, P04, P09, P06, P11
+Capacity: 20
+Selected parcels: P05, P01, P10, P07, P03
+Total weight: 20
+Total value: 495
+DP optimum: 495
+Customers: A, C, E, G, J
+Route: Depot -> A -> C -> E -> G -> J -> Depot
+Route distance: 54
+Depot -> A: 4 km via Depot -> A
+A -> C: 5 km via A -> C
+C -> E: 7 km via C -> D -> E
+E -> G: 8 km via E -> D -> G
+G -> J: 7 km via G -> J
+J -> Depot: 23 km via J -> G -> D -> A -> Depot
